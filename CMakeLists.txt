@@ -4,10 +4,11 @@ set (CMAKE_CXX_STANDARD 20)
 project(audio_visualizer)
 add_compile_definitions(CRT_SECURE_NO_WARNINGS)
 
-# CONFIG INFORMATION
-set(vkIncDir "") # SET VULKAN INCLUDE DIRECTORY E.G. .../VulkanSDK/1.3.239.0/Include
-set(vkLibDir "") # SET VULKAN LIBRARY DIRECTORY 
-set(glfwLibDir "") #SET GLFW LIBRARY DIRECTORY
+#  CONFIG INFORMATION
+set(vkIncDir "")		# SET VULKAN INCLUDE DIRECTORY E.G. .../VulkanSDK/1.3.239.0/Include
+set(vkLibDir "")			# SET VULKAN LIBRARY DIRECTORY 
+set(glfwLibDir "")		# SET GLFW LIBRARY DIRECTORY
+#--CONFIG INFORMATION
 
 list(APPEND LibsList "${vkLibDir}/vulkan-1.lib" "${glfwLibDir}/glfw3.lib")
 
