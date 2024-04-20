@@ -1,0 +1,13 @@
+CMakeFiles
+CmakeCache.txt
+*.cmake
+Debug
+Release
+.vs
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.exe
+_CMakeLists.txt
+_compile_shaders.bat
